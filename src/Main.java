@@ -4,37 +4,32 @@ public class Main {
 	
 	static Thread numAleatorio = new Thread() {
 		public void run() {
-			int num = 0;
-			num = (int) (Math.random() * 1000) + 1;
-			System.out.println("Thread 1:" + num);
+			long id = numAleatorio.getId();
+			System.out.println("Thread 1:" + id);
 		}
 	};
 	static Thread numAleatorio2 = new Thread() {
 		public void run() {
-			int num = 0;
-			num = (int) (Math.random() * 1000) + 1;
-			System.out.println("Thread 2:" + num);
+			long id = numAleatorio2.getId();
+			System.out.println("Thread 2:" + id);
 		}
 	};
 	static Thread numAleatorio3 = new Thread() {
 		public void run() {
-			int num = 0;
-			num = (int) (Math.random() * 1000) + 1;
-			System.out.println("Thread 3:" + num);
+			long id = numAleatorio3.getId();
+			System.out.println("Thread 3:" + id);
 		}
 	};
 	static Thread numAleatorio4 = new Thread() {
 		public void run() {
-			int num = 0;
-			num = (int) (Math.random() * 1000) + 1;
-			System.out.println("Thread 4:" + num);
+			long id = numAleatorio4.getId();
+			System.out.println("Thread 4:" + id);
 		}
 	};
 	static Thread numAleatorio5 = new Thread() {
 		public void run() {
-			int num = 0;
-			num = (int) (Math.random() * 1000) + 1;
-			System.out.println("Thread 5:" + num);
+			long id = numAleatorio5.getId();
+			System.out.println("Thread 5:" + id);
 		}
 	};
 	
